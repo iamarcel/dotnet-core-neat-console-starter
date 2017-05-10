@@ -36,5 +36,5 @@ app.Command("list", c => ListCommand.Configure(c, options));
 - Article: [Structuring Neat .NET Core Console Apps Neatly][3]
 
 [1]: http://www.4dvision.be
-[2]: #
-[3]: #
+[2]: https://gist.github.com/iamarcel/8047384bfbe9941e52817cf14a79dc34
+[3]: https://gist.github.com/iamarcel/9bdc3f40d95c13f80d259b7eb2bbcabb
