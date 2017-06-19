@@ -17,9 +17,7 @@ namespace ConsoleStarter
                 return 1;
             }
 
-            options.Command.Run();
-
-            return 0;
+            return options.Command.Run();
 
         }
     }

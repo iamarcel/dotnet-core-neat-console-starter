@@ -1,5 +1,6 @@
 using Microsoft.Extensions.CommandLineUtils;
 using ConsoleStarter.Commands;
+using ConsoleStarter.CommandConfiguration;
 
 namespace ConsoleStarter
 {
@@ -27,7 +28,7 @@ namespace ConsoleStarter
 
 
 
-            RootCommand.Configure(app, options);
+            RootCommandConfiguration.Configure(app, options);
 
             var result = app.Execute(args);
 
